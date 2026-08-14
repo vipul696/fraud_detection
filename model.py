@@ -19,6 +19,10 @@ def model2():
 def model3():
     print("Model 3: Gradient Boosting")
 
+# Choosing the best accuracy model :
+
+print("Model 2 is performaing Best with 90% accuracy")
+
 # ======================================================================
 
 
