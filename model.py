@@ -7,6 +7,20 @@ from sklearn.impute import SimpleImputer
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix, roc_auc_score
 
+# ===========================================================================
+# Adding more sample models to the model.py file as below :
+
+def model1():
+    print("Model 1: Logistic Regression")
+
+def model2():
+    print("Model 2: Random Forest")
+
+def model3():
+    print("Model 3: Gradient Boosting")
+
+# ======================================================================
+
 
 def load_sample_data():
     data = {
